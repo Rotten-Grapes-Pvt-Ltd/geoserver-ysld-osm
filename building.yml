@@ -1,0 +1,15 @@
+title: "Building"
+feature-styles:
+  - name: name
+    rules:
+      - title: Buildings
+        symbolizers:
+          - polygon:
+              fill-color: "#D9D0C9"
+              stroke-width: 1
+              stroke-color: "#D9D0C9"
+              fill-opacity: 0.7
+          - text:
+              label: ${fclass}
+              anchor: [0.5, 0]
+              x-goodnessOfFit: 1
